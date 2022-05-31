@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1024691295067",
+    "project_id": "management-home",
+    "storage_bucket": "management-home.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024691295067:android:8c160ffc3961d62074807e",
+        "android_client_info": {
+          "package_name": "com.reis.vinicius.homemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024691295067-i4tmeike8mu8ramr8mr8jjoiv2suslq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reis.vinicius.homemanagement",
+            "certificate_hash": "32c82aa97042b6bebb269530967ed1427887d317"
+          }
+        },
+        {
+          "client_id": "1024691295067-nahbcv83frnd5m4093pidkb5nk15ib4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH-tJLoMs2q_jNV8PCp0ot_6IBXjRz3K4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024691295067-nahbcv83frnd5m4093pidkb5nk15ib4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
