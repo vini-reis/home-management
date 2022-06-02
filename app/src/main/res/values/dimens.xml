@@ -1,4 +1,7 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="main_padding">16dp</dimen>
+    <dimen name="margin_between_elements">8dp</dimen>
+    <dimen name="button_height_default">52dp</dimen>
+    <dimen name="facebook_button_padding">12dp</dimen>
 </resources>

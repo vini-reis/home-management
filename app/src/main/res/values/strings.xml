@@ -7,8 +7,17 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="web_client_id">1024691295067-nahbcv83frnd5m4093pidkb5nk15ib4h.apps.googleusercontent.com</string>
+    <!-- String configs -->
+    <string name="google_oauth_web_client_id">1024691295067-nahbcv83frnd5m4093pidkb5nk15ib4h.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">410246944316984</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">49bd99134ee4aefe11024fbece0a202f</string>
+
     <string name="btn_google_sign_in_text">Sign-in with Google</string>
     <string name="logged_in_warning">You\'re logged in!</string>
     <string name="btn_logout_text">Log out</string>
+    <string name="btn_login_text">Login</string>
+    <string name="input_login_email_hint">E-mail</string>
+    <string name="input_login_password_hint">Password</string>
+    <string name="btn_login_register_text">Sign up with e-mail</string>56789
 </resources>

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/login_fragment"
-        android:name="com.reis.vinicius.homemanagement.LoginFragment"
+        android:name="com.reis.vinicius.homemanagement.view.LoginFragment"
         android:label="Login"
         tools:layout="@layout/fragment_login">
 
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/home_fragment"
-        android:name="com.reis.vinicius.homemanagement.HomeFragment"
+        android:name="com.reis.vinicius.homemanagement.view.HomeFragment"
         android:label="Home"
         tools:layout="@layout/fragment_home">
 

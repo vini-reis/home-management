@@ -1,18 +1,24 @@
 package com.reis.vinicius.homemanagement
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
+import androidx.lifecycle.findViewTreeLifecycleOwner
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.reis.vinicius.homemanagement.databinding.ActivityMainBinding
+import com.reis.vinicius.homemanagement.view.LoginFragmentDirections
+import com.reis.vinicius.homemanagement.viewModel.MainViewModel
 
 class MainActivity : AppCompatActivity() {
+    private val viewModel: MainViewModel by viewModels()
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
@@ -28,6 +34,13 @@ class MainActivity : AppCompatActivity() {
         val navController = getNavController()
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        if (viewModel.currentUser.value != null)
+            getNavController().navigate(LoginFragmentDirections.login())
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
