@@ -19,7 +19,7 @@ open class MainViewModel(application: Application) : AndroidViewModel(applicatio
         class Success<T>(val result: Result<T>): Status()
     }
 
-    class Result<T> (
+    data class Result<T> (
         val data: T
     )
 }
